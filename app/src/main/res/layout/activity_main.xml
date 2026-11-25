@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#102B50"
+    android:padding="28dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VisionMate"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="35dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your personal assistance companion. Manage your important information, daily activities and familiar places with simple and accessible features."
+        android:textSize="19sp"
+        android:textColor="#E5EEFA"
+        android:gravity="center"
+        android:lineSpacingExtra="7dp"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Get Started"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1D5CA5"
+        android:contentDescription="Get started with VisionMate"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accessible • Simple • Offline"
+        android:textSize="16sp"
+        android:textColor="#D7E8FF"
+        android:gravity="center"
+        android:layout_marginTop="35dp"/>
+
+</LinearLayout>
